@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86889C871C940CE800D7B813 /* SYPictureGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C861C940CE800D7B813 /* SYPictureGridCell.m */; };
+		86889C8A1C940D9000D7B813 /* SYPictueeGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C891C940D9000D7B813 /* SYPictueeGridLayout.m */; };
+		86889C901C940E2900D7B813 /* SYAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C8F1C940E2900D7B813 /* SYAlbumManager.m */; };
+		86889C931C940EBC00D7B813 /* SYAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C921C940EBC00D7B813 /* SYAlbum.m */; };
+		86889C961C940EFD00D7B813 /* SYCounterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C951C940EFD00D7B813 /* SYCounterButton.m */; };
+		86889C991C940F3600D7B813 /* SYPicturePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C981C940F3600D7B813 /* SYPicturePreviewViewController.m */; };
+		86889C9C1C940F6D00D7B813 /* SYPageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86889C9B1C940F6D00D7B813 /* SYPageDetailViewController.m */; };
+		86BAA5241C25A450000AD9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA5231C25A450000AD9CF /* main.m */; };
+		86BAA5271C25A450000AD9CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA5261C25A450000AD9CF /* AppDelegate.m */; };
+		86BAA5301C25A450000AD9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BAA52E1C25A450000AD9CF /* Main.storyboard */; };
+		86BAA5321C25A450000AD9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BAA5311C25A450000AD9CF /* Assets.xcassets */; };
+		86BAA5351C25A450000AD9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BAA5331C25A450000AD9CF /* LaunchScreen.storyboard */; };
+		86BAA5401C25A450000AD9CF /* SYImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA53F1C25A450000AD9CF /* SYImagePickerTests.m */; };
+		86BAA54B1C25A450000AD9CF /* SYImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA54A1C25A450000AD9CF /* SYImagePickerUITests.m */; };
+		86BAA55A1C25A53C000AD9CF /* SYImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA5591C25A53C000AD9CF /* SYImagePickerController.m */; };
+		86BAA55D1C25A596000AD9CF /* SYPictureGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA55C1C25A596000AD9CF /* SYPictureGridViewController.m */; };
+		86BAA5601C25A6BD000AD9CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BAA55F1C25A6BD000AD9CF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86BAA53C1C25A450000AD9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BAA5171C25A450000AD9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86BAA51E1C25A450000AD9CF;
+			remoteInfo = SYImagePicker;
+		};
+		86BAA5471C25A450000AD9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BAA5171C25A450000AD9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86BAA51E1C25A450000AD9CF;
+			remoteInfo = SYImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86889C851C940CE800D7B813 /* SYPictureGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPictureGridCell.h; sourceTree = "<group>"; };
+		86889C861C940CE800D7B813 /* SYPictureGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPictureGridCell.m; sourceTree = "<group>"; };
+		86889C881C940D9000D7B813 /* SYPictueeGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPictueeGridLayout.h; sourceTree = "<group>"; };
+		86889C891C940D9000D7B813 /* SYPictueeGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPictueeGridLayout.m; sourceTree = "<group>"; };
+		86889C8E1C940E2900D7B813 /* SYAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAlbumManager.h; sourceTree = "<group>"; };
+		86889C8F1C940E2900D7B813 /* SYAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAlbumManager.m; sourceTree = "<group>"; };
+		86889C911C940EBC00D7B813 /* SYAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAlbum.h; sourceTree = "<group>"; };
+		86889C921C940EBC00D7B813 /* SYAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAlbum.m; sourceTree = "<group>"; };
+		86889C941C940EFD00D7B813 /* SYCounterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCounterButton.h; sourceTree = "<group>"; };
+		86889C951C940EFD00D7B813 /* SYCounterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCounterButton.m; sourceTree = "<group>"; };
+		86889C971C940F3600D7B813 /* SYPicturePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPicturePreviewViewController.h; sourceTree = "<group>"; };
+		86889C981C940F3600D7B813 /* SYPicturePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPicturePreviewViewController.m; sourceTree = "<group>"; };
+		86889C9A1C940F6D00D7B813 /* SYPageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPageDetailViewController.h; sourceTree = "<group>"; };
+		86889C9B1C940F6D00D7B813 /* SYPageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPageDetailViewController.m; sourceTree = "<group>"; };
+		86BAA51F1C25A450000AD9CF /* SYImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BAA5231C25A450000AD9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86BAA5251C25A450000AD9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86BAA5261C25A450000AD9CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86BAA52F1C25A450000AD9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86BAA5311C25A450000AD9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86BAA5341C25A450000AD9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86BAA5361C25A450000AD9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BAA53B1C25A450000AD9CF /* SYImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BAA53F1C25A450000AD9CF /* SYImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYImagePickerTests.m; sourceTree = "<group>"; };
+		86BAA5411C25A450000AD9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BAA5461C25A450000AD9CF /* SYImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BAA54A1C25A450000AD9CF /* SYImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYImagePickerUITests.m; sourceTree = "<group>"; };
+		86BAA54C1C25A450000AD9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BAA5581C25A53C000AD9CF /* SYImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYImagePickerController.h; sourceTree = "<group>"; };
+		86BAA5591C25A53C000AD9CF /* SYImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYImagePickerController.m; sourceTree = "<group>"; };
+		86BAA55B1C25A596000AD9CF /* SYPictureGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPictureGridViewController.h; sourceTree = "<group>"; };
+		86BAA55C1C25A596000AD9CF /* SYPictureGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPictureGridViewController.m; sourceTree = "<group>"; };
+		86BAA55E1C25A6BD000AD9CF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86BAA55F1C25A6BD000AD9CF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86BAA51C1C25A450000AD9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAA5381C25A450000AD9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAA5431C25A450000AD9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86889C831C940BF500D7B813 /* SYImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA55E1C25A6BD000AD9CF /* ViewController.h */,
+				86BAA55F1C25A6BD000AD9CF /* ViewController.m */,
+				86BAA5581C25A53C000AD9CF /* SYImagePickerController.h */,
+				86BAA5591C25A53C000AD9CF /* SYImagePickerController.m */,
+			);
+			name = SYImagePicker;
+			sourceTree = "<group>";
+		};
+		86889C841C940C1C00D7B813 /* Grid(网格控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA55B1C25A596000AD9CF /* SYPictureGridViewController.h */,
+				86BAA55C1C25A596000AD9CF /* SYPictureGridViewController.m */,
+				86889C851C940CE800D7B813 /* SYPictureGridCell.h */,
+				86889C861C940CE800D7B813 /* SYPictureGridCell.m */,
+				86889C881C940D9000D7B813 /* SYPictueeGridLayout.h */,
+				86889C891C940D9000D7B813 /* SYPictueeGridLayout.m */,
+			);
+			name = "Grid(网格控制器)";
+			sourceTree = "<group>";
+		};
+		86889C8B1C940DA300D7B813 /* 预览控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				86889C971C940F3600D7B813 /* SYPicturePreviewViewController.h */,
+				86889C981C940F3600D7B813 /* SYPicturePreviewViewController.m */,
+				86889C9A1C940F6D00D7B813 /* SYPageDetailViewController.h */,
+				86889C9B1C940F6D00D7B813 /* SYPageDetailViewController.m */,
+			);
+			name = "预览控制器";
+			sourceTree = "<group>";
+		};
+		86889C8C1C940DC900D7B813 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86889C941C940EFD00D7B813 /* SYCounterButton.h */,
+				86889C951C940EFD00D7B813 /* SYCounterButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		86889C8D1C940DD800D7B813 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86889C8E1C940E2900D7B813 /* SYAlbumManager.h */,
+				86889C8F1C940E2900D7B813 /* SYAlbumManager.m */,
+				86889C911C940EBC00D7B813 /* SYAlbum.h */,
+				86889C921C940EBC00D7B813 /* SYAlbum.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		86889C9D1C950BB900D7B813 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA5251C25A450000AD9CF /* AppDelegate.h */,
+				86BAA5261C25A450000AD9CF /* AppDelegate.m */,
+				86BAA52E1C25A450000AD9CF /* Main.storyboard */,
+				86BAA5311C25A450000AD9CF /* Assets.xcassets */,
+				86BAA5331C25A450000AD9CF /* LaunchScreen.storyboard */,
+				86BAA5361C25A450000AD9CF /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		86BAA5161C25A450000AD9CF = {
+			isa = PBXGroup;
+			children = (
+				86BAA5211C25A450000AD9CF /* SYImagePicker */,
+				86BAA53E1C25A450000AD9CF /* SYImagePickerTests */,
+				86BAA5491C25A450000AD9CF /* SYImagePickerUITests */,
+				86BAA5201C25A450000AD9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86BAA5201C25A450000AD9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA51F1C25A450000AD9CF /* SYImagePicker.app */,
+				86BAA53B1C25A450000AD9CF /* SYImagePickerTests.xctest */,
+				86BAA5461C25A450000AD9CF /* SYImagePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86BAA5211C25A450000AD9CF /* SYImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				86889C9D1C950BB900D7B813 /* Other */,
+				86889C8D1C940DD800D7B813 /* Model */,
+				86889C8C1C940DC900D7B813 /* View */,
+				86889C8B1C940DA300D7B813 /* 预览控制器 */,
+				86889C841C940C1C00D7B813 /* Grid(网格控制器) */,
+				86889C831C940BF500D7B813 /* SYImagePicker */,
+				86BAA5221C25A450000AD9CF /* Supporting Files */,
+			);
+			path = SYImagePicker;
+			sourceTree = "<group>";
+		};
+		86BAA5221C25A450000AD9CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA5231C25A450000AD9CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86BAA53E1C25A450000AD9CF /* SYImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA53F1C25A450000AD9CF /* SYImagePickerTests.m */,
+				86BAA5411C25A450000AD9CF /* Info.plist */,
+			);
+			path = SYImagePickerTests;
+			sourceTree = "<group>";
+		};
+		86BAA5491C25A450000AD9CF /* SYImagePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86BAA54A1C25A450000AD9CF /* SYImagePickerUITests.m */,
+				86BAA54C1C25A450000AD9CF /* Info.plist */,
+			);
+			path = SYImagePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86BAA51E1C25A450000AD9CF /* SYImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BAA54F1C25A450000AD9CF /* Build configuration list for PBXNativeTarget "SYImagePicker" */;
+			buildPhases = (
+				86BAA51B1C25A450000AD9CF /* Sources */,
+				86BAA51C1C25A450000AD9CF /* Frameworks */,
+				86BAA51D1C25A450000AD9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYImagePicker;
+			productName = SYImagePicker;
+			productReference = 86BAA51F1C25A450000AD9CF /* SYImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86BAA53A1C25A450000AD9CF /* SYImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BAA5521C25A450000AD9CF /* Build configuration list for PBXNativeTarget "SYImagePickerTests" */;
+			buildPhases = (
+				86BAA5371C25A450000AD9CF /* Sources */,
+				86BAA5381C25A450000AD9CF /* Frameworks */,
+				86BAA5391C25A450000AD9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BAA53D1C25A450000AD9CF /* PBXTargetDependency */,
+			);
+			name = SYImagePickerTests;
+			productName = SYImagePickerTests;
+			productReference = 86BAA53B1C25A450000AD9CF /* SYImagePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86BAA5451C25A450000AD9CF /* SYImagePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BAA5551C25A450000AD9CF /* Build configuration list for PBXNativeTarget "SYImagePickerUITests" */;
+			buildPhases = (
+				86BAA5421C25A450000AD9CF /* Sources */,
+				86BAA5431C25A450000AD9CF /* Frameworks */,
+				86BAA5441C25A450000AD9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BAA5481C25A450000AD9CF /* PBXTargetDependency */,
+			);
+			name = SYImagePickerUITests;
+			productName = SYImagePickerUITests;
+			productReference = 86BAA5461C25A450000AD9CF /* SYImagePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86BAA5171C25A450000AD9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Ying;
+				TargetAttributes = {
+					86BAA51E1C25A450000AD9CF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3A9DADK6CC;
+					};
+					86BAA53A1C25A450000AD9CF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3A9DADK6CC;
+						TestTargetID = 86BAA51E1C25A450000AD9CF;
+					};
+					86BAA5451C25A450000AD9CF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3A9DADK6CC;
+						TestTargetID = 86BAA51E1C25A450000AD9CF;
+					};
+				};
+			};
+			buildConfigurationList = 86BAA51A1C25A450000AD9CF /* Build configuration list for PBXProject "SYImagePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86BAA5161C25A450000AD9CF;
+			productRefGroup = 86BAA5201C25A450000AD9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86BAA51E1C25A450000AD9CF /* SYImagePicker */,
+				86BAA53A1C25A450000AD9CF /* SYImagePickerTests */,
+				86BAA5451C25A450000AD9CF /* SYImagePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86BAA51D1C25A450000AD9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BAA5351C25A450000AD9CF /* LaunchScreen.storyboard in Resources */,
+				86BAA5321C25A450000AD9CF /* Assets.xcassets in Resources */,
+				86BAA5301C25A450000AD9CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAA5391C25A450000AD9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAA5441C25A450000AD9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86BAA51B1C25A450000AD9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86889C961C940EFD00D7B813 /* SYCounterButton.m in Sources */,
+				86BAA5271C25A450000AD9CF /* AppDelegate.m in Sources */,
+				86889C9C1C940F6D00D7B813 /* SYPageDetailViewController.m in Sources */,
+				86BAA5241C25A450000AD9CF /* main.m in Sources */,
+				86889C8A1C940D9000D7B813 /* SYPictueeGridLayout.m in Sources */,
+				86889C901C940E2900D7B813 /* SYAlbumManager.m in Sources */,
+				86BAA55D1C25A596000AD9CF /* SYPictureGridViewController.m in Sources */,
+				86889C991C940F3600D7B813 /* SYPicturePreviewViewController.m in Sources */,
+				86BAA55A1C25A53C000AD9CF /* SYImagePickerController.m in Sources */,
+				86889C931C940EBC00D7B813 /* SYAlbum.m in Sources */,
+				86889C871C940CE800D7B813 /* SYPictureGridCell.m in Sources */,
+				86BAA5601C25A6BD000AD9CF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAA5371C25A450000AD9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BAA5401C25A450000AD9CF /* SYImagePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAA5421C25A450000AD9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BAA54B1C25A450000AD9CF /* SYImagePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86BAA53D1C25A450000AD9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86BAA51E1C25A450000AD9CF /* SYImagePicker */;
+			targetProxy = 86BAA53C1C25A450000AD9CF /* PBXContainerItemProxy */;
+		};
+		86BAA5481C25A450000AD9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86BAA51E1C25A450000AD9CF /* SYImagePicker */;
+			targetProxy = 86BAA5471C25A450000AD9CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86BAA52E1C25A450000AD9CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86BAA52F1C25A450000AD9CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86BAA5331C25A450000AD9CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86BAA5341C25A450000AD9CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86BAA54D1C25A450000AD9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86BAA54E1C25A450000AD9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86BAA5501C25A450000AD9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SYImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenying.SYImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86BAA5511C25A450000AD9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SYImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenying.SYImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86BAA5531C25A450000AD9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenying.SYImagePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYImagePicker.app/SYImagePicker";
+			};
+			name = Debug;
+		};
+		86BAA5541C25A450000AD9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenying.SYImagePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYImagePicker.app/SYImagePicker";
+			};
+			name = Release;
+		};
+		86BAA5561C25A450000AD9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYImagePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenying.SYImagePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYImagePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		86BAA5571C25A450000AD9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYImagePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenying.SYImagePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYImagePicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86BAA51A1C25A450000AD9CF /* Build configuration list for PBXProject "SYImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BAA54D1C25A450000AD9CF /* Debug */,
+				86BAA54E1C25A450000AD9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BAA54F1C25A450000AD9CF /* Build configuration list for PBXNativeTarget "SYImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BAA5501C25A450000AD9CF /* Debug */,
+				86BAA5511C25A450000AD9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BAA5521C25A450000AD9CF /* Build configuration list for PBXNativeTarget "SYImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BAA5531C25A450000AD9CF /* Debug */,
+				86BAA5541C25A450000AD9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BAA5551C25A450000AD9CF /* Build configuration list for PBXNativeTarget "SYImagePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BAA5561C25A450000AD9CF /* Debug */,
+				86BAA5571C25A450000AD9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86BAA5171C25A450000AD9CF /* Project object */;
+}
